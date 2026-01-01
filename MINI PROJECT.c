@@ -4,14 +4,14 @@ int main()              //Aishwarya Sharma, ERP-10122
 {
     int a, b, choice, result;
 
-    // Input two integers
+    
     printf("Enter first integer: ");
     scanf("%d", &a);
 
     printf("Enter second integer: ");
     scanf("%d", &b);
 
-    // Display menu
+    
     printf("\n----- Bitwise Utility Tool -----\n");
     printf("1. Bitwise AND (&)\n");
     printf("2. Bitwise OR (|)\n");
@@ -21,7 +21,7 @@ int main()              //Aishwarya Sharma, ERP-10122
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
-    // Switch case for operations
+    
     switch(choice)
     {
         case 1:
@@ -67,3 +67,4 @@ int main()              //Aishwarya Sharma, ERP-10122
 // 5. Right Shift (>>)
 // Enter your choice: 1
 // Result of 5 & 3 = 1
+
